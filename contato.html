@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <title>Dudu Designer - Contato</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+    rel="stylesheet">
+  </head>
+  <body>
+    <header>
+    <div class="banner">
+      <h1><img class="banner-img" src="imagens/banner.png" alt="Tela de fundo
+         com efeito de fumaça"></h1>
+      <p class="titulo">Dudu Designer</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <form>
+      <label for="nomeSobrenome">Nome e Sobrenome</label>
+      <input type="text" id="nomeSobrenome" class="input-form"
+      placeholder="Nome Sobrenome" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" class="input-form"
+      placeholder="SeuEmail@Dominio.com" required>
+
+      <label for="telefone">Telefone</label>
+      <input type="tel" id="telefone" class="input-form"
+      placeholder="(XX) X XXXX-XXXX" required>
+
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" rows="10" cols="70"></textarea>
+
+      <fieldset>
+        <legend>Como prefere ser atendido?</legend>
+        <label for="radio-email">
+          <input type="radio" name="contato" value="email" id="radio-email">
+          Email</label>
+
+          <label for="radio-telefone">
+            <input type="radio" name="contato" value="telefone" id="radio-telefone">
+            Telefone</label>
+
+            <label for="radio-whatsapp">
+              <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"
+              checked> Whatsapp</label>
+      </fieldset>
+
+    </form>
+  </main>
+  </body>
+</html>

@@ -22,8 +22,31 @@ main p {
 .titulo {
   position: absolute;
   top: 1em;
-  margin-left: 50%;
+  margin-left: 2em;
   font-size: 3em;
+}
+
+nav {
+  position: absolute;
+  top: 1em;
+  right: 2em;
+}
+
+nav li {
+  display: inline;
+  margin-right: 1em;
+}
+
+nav a {
+  color:  #E6E6FA;
+  font-size: 2.5em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #C78C19;
+  text-decoration: underline;
 }
 
 .descricao {
@@ -55,6 +78,20 @@ main p {
   margin: 0 10% 0 10%;
 }
 
+/*Pagina de Contato*/
+
+form {
+  margin-left: 2em;
+}
+
+form label {
+  display: block;
+  margin: 1em 0 1em ;
+}
+
+fieldset {
+  margin-top: 1em;
+}
 
 /*Dispositivos moveis*/
 @media screen and (max-width: 480px){
