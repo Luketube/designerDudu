@@ -109,6 +109,10 @@ nav a:hover {
   transform: scale(1.2);
 }
 
+.contato {
+  margin: 0 0 3em;
+}
+
 /*Pagina de Contato*/
 
 form {
