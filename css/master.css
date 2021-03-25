@@ -106,6 +106,7 @@ nav a:hover {
 .exposicao-img:hover {
   opacity: 1;
   transition: 400ms;
+  transform: scale(1.2);
 }
 
 /*Pagina de Contato*/
@@ -116,11 +117,36 @@ form {
 
 form label {
   display: block;
-  margin: 1em 0 1em ;
+  margin: 1em 0;
+}
+
+.input-form, form textarea {
+  width: 40%;
+  margin: 0 0 1em;
+  padding: 10px 20px;
 }
 
 fieldset {
   margin-top: 1em;
+}
+
+.enviar {
+  margin-bottom: 3em;
+  width: 30%;
+  padding: 15px 0;
+  background: #C78C19;
+  color: #E6E6FA;
+  font-size: 18px;
+  font-weight: bold;
+  border-style: none;
+  border-radius: 10px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background: darkorange;
+  transform: scale(1.2);
 }
 
 /*Dispositivos moveis*/
